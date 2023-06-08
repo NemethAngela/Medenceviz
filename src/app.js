@@ -1,4 +1,12 @@
-//Németh Angéla, Szoft I/2/E, 2023-06-08.
+/*
+* File: app.js
+* Author: Németh Angéla
+* Copyright: 2023, Németh Angéla
+* Group: Szoft 1-2 E
+* Date: 2023-06-08
+* Github: https://github.com/NemethAngela/
+* Licenc: GNU GPL
+*/
 
 const doc = {
     magassagInput: document.querySelector('#magassag'),
