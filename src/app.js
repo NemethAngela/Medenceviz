@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
     init();
 });
 
-function init() {       //eseménykezelő
+function init() {       
     if (calcButton) {
         doc.calcButton.addEventListener('click', () => {
             startCalc();
@@ -28,7 +28,6 @@ function startCalc() {
     let magassag = doc.magassagInput.value;
     let szelesseg = doc.szelessegInput.value;
     let hossz = doc.hosszInput.value;
-    //let isValid = checkInput(magassag, szelesseg, hossz);
     let isValid = checkInput(magassag) && checkInput(szelesseg) && checkInput(hossz);
 
     if (isValid == true) {

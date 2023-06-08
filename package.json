@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "jasmine-browser-runner": "^2.0.0",
+    "jasmine-core": "^5.0.0",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
